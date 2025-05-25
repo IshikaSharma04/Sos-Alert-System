@@ -16,6 +16,34 @@ body {
     padding: 0.8rem 2rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+.styled-table {
+    width: 80%;  /* Adjust width to fit inside the container */
+    margin: auto; /* Centers the table */
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px;
+    text-align: center;
+    color: white;
+}
+
+.styled-table th {
+    background: linear-gradient(to right, #ff6600, #ff3300);
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centers the content */
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
 
 .logo {
     display: flex;
