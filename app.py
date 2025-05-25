@@ -19,7 +19,7 @@ TWILIO_PHONE_NUMBER = os.getenv("TWILIO_PHONE_NUMBER")
 def get_db_connection():
     try:
         conn = mysql.connector.connect(
-            host="Mfaiz",
+            host="192.168.29.151",
             user="root",
             password="01052004",
             database="sos_system"
